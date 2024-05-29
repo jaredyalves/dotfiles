@@ -1,0 +1,15 @@
+[user]
+    name = Járedy Alves
+    email = jaredyalves@undefinedname.com
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH0RasofqVkWssDAAx/C/6ugVwEiqPUcUbYM+bWl3Iir
+[init]
+    defaultBranch = main
+[commit]
+    gpgsign = true
+[gpg]
+    format = ssh
+[gpg "ssh"]
+    program = op-ssh-sign
+
+[includeIf "gitdir/i:**/projects/fortytwo/**"]
+    path = ~/.config/git/config-fortytwo
