@@ -1,2 +1,2 @@
-set -x  user_fish_paths $HOME/.local/bin
-set -xa user_fish_paths $HOME/.local/share/JetBrains/Toolbox/scripts
+set -x  fish_user_paths $HOME/.local/bin
+set -xa fish_user_paths $HOME/.local/share/JetBrains/Toolbox/scripts
