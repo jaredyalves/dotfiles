@@ -1,0 +1,7 @@
+[user]
+    name = Járedy Alves
+    email = jaredyalves@undefinedname.com
+    signingkey = jaredyalves@undefinedname.com
+
+[commit]
+    gpgsign = true
